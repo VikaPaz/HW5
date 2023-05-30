@@ -5,6 +5,7 @@ struct Person {
     char name[30];
 };
 
+// Функция среднего возраста
 float averageAge(struct Person arr[], int n) {
     int sum = 0;
     for (int i = 0; i < n; i++) {

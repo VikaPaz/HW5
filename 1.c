@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+//  Функция переоворота
 void swap(int arr[], int n) {
     int k = n / 2;
     for (int i = 0; i < k; i++) {

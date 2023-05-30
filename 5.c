@@ -1,6 +1,7 @@
 
 #include <stdio.h>
 
+//  Функция переоворота
 void swap(int matrix[][10], int rows, int cols, int col1, int col2) {
     for (int i = 0; i < rows; i++) {
         int temp = matrix[i][col1];
@@ -24,6 +25,7 @@ int main() {
     int minSum = 0;
     int maxSum = 0;
     
+    // mix max
     for (int j = 0; j < m; j++) {
         int colSum = 0;
         for (int i = 0; i < n; i++) {

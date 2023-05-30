@@ -7,6 +7,7 @@ void reduce_fraction(int* a, int* b) {
     *b /= div;
 }
 
+// НОД
 int gcd(int a, int b) {
     if (b == 0) {
         return a;

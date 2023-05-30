@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+// abs + счет
 int abs_arr(int arr[], int n) {
     int count = 0;
     for (int i = 0; i < n; i++) {

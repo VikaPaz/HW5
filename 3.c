@@ -5,6 +5,7 @@ struct Move {
     int y;
 };
 
+// Перемещение
 struct Move getFinishPoint(struct Move arr[], int n) {
     struct Move finish;
     finish.x = 0;
